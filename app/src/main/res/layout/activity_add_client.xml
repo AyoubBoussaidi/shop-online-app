@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard"
+    tools:context=".addProductActivity">
+    <ImageView
+        android:id="@+id/routeur_add_client"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/retur"
+        android:layout_margin="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajout du client"
+        android:textSize="30sp"
+        android:fontFamily="@font/almendra"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        />
+    <EditText
+
+        android:id="@+id/Nom_prenom_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Motdepasse"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rectangle0"
+        android:fontFamily="@font/almendra"
+        android:hint="Telephone"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+
+    <EditText
+        android:id="@+id/Login_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rectangle0"
+        android:fontFamily="@font/almendra"
+        android:hint="Login"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+
+    <EditText
+        android:id="@+id/Motdepasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_client"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rectangle0"
+        android:fontFamily="@font/almendra"
+        android:hint="Mot de Passe "
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+    <EditText
+        android:id="@+id/NomPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nom_prenom_client"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rectangle0"
+        android:fontFamily="@font/almendra"
+        android:hint="Nom Prenom"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+
+    <Button
+        android:id="@+id/add_new_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NomPrenom"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/btndesign"
+        android:fontFamily="@font/almendra"
+        android:padding="17dp"
+        android:text="Ajouter"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

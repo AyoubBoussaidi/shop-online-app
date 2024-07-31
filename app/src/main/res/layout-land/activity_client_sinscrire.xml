@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomlog"
+    tools:context=".clientSinscrire">
+
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logoapp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/Linear_layout_in_login_create_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/register_applogo"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/register_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_applogo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Login"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/register_Password_Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_Login"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Mot De Passe"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear1_layout_in_login_create_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Linear_layout_in_login_create_acc"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_Tele_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Telephone"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="19sp" />
+        <EditText
+            android:id="@+id/register_name_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_Tele_input"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Nom et Prenom"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/Linear1_layout_in_login_create_acc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btndesign"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:text="S'inscrire"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/bleau" />
+
+</RelativeLayout>

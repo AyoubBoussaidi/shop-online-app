@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:fontFamily="@font/almendra"
+        android:id="@+id/just_txt"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:background="@color/colorPrimary"
+        android:text="Modifications des informations"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:fontFamily="@font/almendra"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/rectangle0"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:id="@+id/pdesignation"
+            android:hint="Designation"/>
+
+        <EditText
+            android:fontFamily="@font/almendra"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/rectangle0"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pdescription"
+            android:inputType="text"
+            android:hint="Description"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <EditText
+            android:fontFamily="@font/almendra"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:background="@drawable/rectangle0"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pprix"
+            android:inputType="text"
+            android:hint="Prix"/>
+
+        <EditText
+            android:fontFamily="@font/almendra"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:background="@drawable/rectangle0"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pquantite"
+            android:inputType="text"
+            android:hint="Quantite"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/usubmitproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btndesign"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:text="Modifier"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/bleau" />
+
+</LinearLayout>

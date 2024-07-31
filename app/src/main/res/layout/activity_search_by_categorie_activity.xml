@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchByCategorieActivityActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rlforsearching_categorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/info_see_categorie"
+            android:background="@drawable/infoforcat"/>
+
+        <EditText
+            android:id="@+id/serch_product_name_with_categ"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="categorie ..."
+            android:background="@drawable/rectangle0"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:padding="13dp"
+            android:fontFamily="@font/almendra"
+            android:textColorHint="@color/black"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/serching_btn_categorie"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/serch_product_name_with_categ"
+            android:background="@drawable/searching"
+            app:backgroundTint="@color/black" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searching_list_categorie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/serch_product_name_with_categ"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

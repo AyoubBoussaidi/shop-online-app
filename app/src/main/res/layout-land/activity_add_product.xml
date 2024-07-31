@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard"
+    tools:context=".addProductActivity">
+    <ImageView
+        android:id="@+id/routeur_add_product"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/retur"
+        android:layout_margin="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajout du produit"
+        android:textSize="30sp"
+        android:fontFamily="@font/almendra"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photocamera" />
+
+
+    <LinearLayout
+        android:id="@+id/Linear_layout_in_add_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_product_image"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Designation..."
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+
+        <EditText
+            android:id="@+id/product_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint=" Description..."
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linear1_layout_in_add_product"
+        android:layout_below="@+id/Linear_layout_in_add_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Prix..."
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/product_Quantite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/rectangle0"
+            android:fontFamily="@font/almendra"
+            android:hint="Quantite..."
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Linear1_layout_in_add_product"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/adminbutton1"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:text="Ajouter"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/bleau" />
+
+
+</RelativeLayout>

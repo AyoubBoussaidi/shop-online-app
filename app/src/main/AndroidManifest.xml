@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication.NoActionBar"
+        tools:replace="android:theme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity android:name=".aboutasActivity" />
+        <activity
+            android:name=".TestSearchAdmin.ProductListActivityV3"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".TestSearchAdmin.UserListActivityV3"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".ClientCategorieActivity" />
+        <activity android:name=".SearchByCategorieActivityActivity" />
+        <activity android:name=".DetailsActivityForAdminActivity" />
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".AdminUserOrderProductsActivity" />
+        <activity android:name=".AdminOrdersActivity" />
+        <activity android:name=".zzzActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity
+            android:name=".CartActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar" /> <!-- android:theme="@style/Theme.MyApplication" -->
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".SettinsActivity" />
+        <activity android:name=".UpdateProductActivity" />
+        <activity android:name=".DeleteProductActivity" />
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".UpdateClientActivity" />
+        <activity android:name=".DeleteClientActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".AdminGestionProduitActivity" />
+        <activity android:name=".AddClientActivity" />
+        <activity android:name=".AdminGestionClientActivity" />
+        <activity android:name=".AdminGestionActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".AdminCategorieActivity" />
+        <activity android:name=".clientSinscrire" />
+        <activity android:name=".clientLogin" />
+        <activity android:name=".addProductActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard"
+    tools:context=".AdminCategorieActivity">
+    <ImageView
+        android:id="@+id/routeur_from_categorie"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/retur"
+        android:layout_margin="12dp"
+        />
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/almendra"
+        android:text="Ajouter Un Produit"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/slogan_category_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/slogan_category"
+        android:fontFamily="@font/almendra"
+        android:text="Choisir la Categorie du produit"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+        android:layout_below="@+id/slogan_category_description"
+
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/t_shirts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tshirt" />
+
+        <ImageView
+            android:id="@+id/sports_t_shirts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/basketballshirt" />
+
+        <ImageView
+            android:id="@+id/sports_pant"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/trousers" />
+
+        <ImageView
+            android:id="@+id/short_sports_pant"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/shorts" />
+
+        <ImageView
+            android:id="@+id/watches"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/watch" />
+
+        <ImageView
+            android:id="@+id/back_bag"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/backpack" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_names_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/almendra"
+            android:text="T-shirts"
+
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/almendra"
+            android:text="T-shirts sportif"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Pantalons"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/almendra"
+            android:text="Shorts"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Montres"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/almendra"
+            android:text="Sacs"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/headphones"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/headphone" />
+
+        <ImageView
+            android:id="@+id/laptop_pc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/laptop" />
+
+        <ImageView
+            android:id="@+id/mobilephones"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/smartphone" />
+
+        <ImageView
+            android:id="@+id/sun_glasses"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/sunglasses" />
+
+        <ImageView
+            android:id="@+id/hats_caps"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/hat" />
+        <ImageView
+            android:id="@+id/sports_trainner"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/runningshoe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_names_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3_category_layout"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Écouteurs"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Ordinateurs"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:fontFamily="@font/almendra"
+            android:text="Téléphones"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Lunettes"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Chapeaux"
+            android:textSize="10sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/almendra"
+            android:text="Chaussures"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:fontFamily="@font/almendra"
+        android:id="@+id/just_txt"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:background="@color/colorPrimary"
+        android:text="Modifications des informations"/>
+
+
+    <EditText
+        android:fontFamily="@font/almendra"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangle0"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:id="@+id/uname"
+        android:hint="Nom Prenom"/>
+
+
+
+    <EditText
+        android:fontFamily="@font/almendra"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:background="@drawable/rectangle0"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uemail"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+    <EditText
+        android:fontFamily="@font/almendra"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:background="@drawable/rectangle0"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uphone"
+        android:inputType="textEmailAddress"
+        android:hint="Telephone"/>
+
+    <Button
+        android:id="@+id/usubmit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btndesign"
+        android:fontFamily="@font/almendra"
+        android:text="Modifier"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:backgroundTint="@color/bleau" />
+
+</LinearLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ClientCategorieActivity">
+    <ImageView
+        android:id="@+id/routeur_from_categorie_tosearch_client"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/retur"
+        android:layout_margin="12dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout_for_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/t_shirts"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tshirt" />
+
+        <ImageView
+            android:id="@+id/sports_t_shirts"
+            android:layout_width="95dp"
+            android:layout_height="90dp"
+            android:src="@drawable/basketballshirt" />
+
+        <ImageView
+            android:id="@+id/sports_pant"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/trousers" />
+
+        <ImageView
+            android:id="@+id/short_sports_pant"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/shorts" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_names_layout_for_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout_for_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/almendra"
+            android:text="T-shirts"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/almendra"
+            android:text="T-shirts sportif"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/almendra"
+            android:text="Pantalons"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/almendra"
+            android:text="Shorts"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout_for_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout_for_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/watches"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/watch" />
+
+        <ImageView
+            android:id="@+id/back_bag"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/backpack" />
+
+        <ImageView
+            android:id="@+id/hats_caps"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hat" />
+
+        <ImageView
+            android:id="@+id/sports_trainner"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/runningshoe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_names_layout_for_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout_for_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/almendra"
+            android:text="Montres"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/almendra"
+            android:text="Sacs"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/almendra"
+            android:text="Chapeaux"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:fontFamily="@font/almendra"
+            android:text="Chaussures"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout_for_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout_for_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/headphones"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/headphone" />
+
+        <ImageView
+            android:id="@+id/laptop_pc"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/laptop" />
+
+        <ImageView
+            android:id="@+id/mobilephones"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/smartphone" />
+
+        <ImageView
+            android:id="@+id/sun_glasses"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/sunglasses" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_names_layout_for_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3_category_layout_for_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/almendra"
+            android:text="Écouteurs"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/almendra"
+            android:text="Ordinateurs"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/almendra"
+            android:text="Téléphones"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/almendra"
+            android:text="Lunettes"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

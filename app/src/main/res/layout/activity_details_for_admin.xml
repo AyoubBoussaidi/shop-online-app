@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard"
+    tools:context=".ProductDetailsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details du produit"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="@font/almendra"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+    <ImageView
+        android:id="@+id/product_image_details_for_admin"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/product_name_details_for_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_image_details_for_admin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/almendra"
+        android:gravity="center"
+        android:text="Nom du produit"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/product_description_details_for_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_name_details_for_admin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/almendra"
+        android:gravity="center"
+        android:text="Description du produit"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/product_price_details_for_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_description_details_for_admin"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/almendra"
+        android:gravity="center"
+        android:text="Prix du produit"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</RelativeLayout>
