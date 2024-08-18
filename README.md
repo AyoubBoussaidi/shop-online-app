@@ -24,7 +24,7 @@ Firebase: Backend services for authentication, real-time database, and cloud sto
 bash
 Copier le code
 # Clone the repository
-git clone https://github.com/yourusername/shoponline.git
+git clone https://github.com/AyoubBoussaidi/shop-online-app.git
 
 # Open the project in Android Studio
 
