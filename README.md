@@ -15,9 +15,12 @@ Java: Core language for Android development.
 Firebase: Backend services for authentication, real-time database, and cloud storage.
 📸 Screenshots
 <p align="center">
-  <img src="login.jpg" alt="Home Screen" width="200" style="border-radius: 10px; margin-right: 10px;">
-  <img src="admin.jpg" alt="Product Listing" width="200" style="border-radius: 10px; margin-right: 10px;">
-  <img src="welcome.jpg" alt="User Authentication" width="200" style="border-radius: 10px;">
+ <img src="welcome.jpg" alt="Welcome Page" width="200" style="border-radius: 10px;">
+  <img src="login.jpg" alt=" User Authentication" width="200" style="border-radius: 10px; margin-right: 10px;">
+  <img src="admin.jpg" alt="Admin Dashboard" width="200" style="border-radius: 10px; margin-right: 10px;">
+  <img src="shop1.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
+  <img src="shop2.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
+  <img src="sShop3.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
 </p>
 
 🛠️ Installation and Setup
