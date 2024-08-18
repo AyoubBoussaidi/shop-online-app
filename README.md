@@ -21,8 +21,7 @@ Firebase: Backend services for authentication, real-time database, and cloud sto
 </p>
 
 🛠️ Installation and Setup
-bash
-Copier le code
+
 # Clone the repository
 git clone https://github.com/AyoubBoussaidi/shop-online-app.git
 
