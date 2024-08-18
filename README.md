@@ -18,9 +18,12 @@ Firebase: Backend services for authentication, real-time database, and cloud sto
  <img src="welcome.jpg" alt="Welcome Page" width="200" style="border-radius: 10px;">
   <img src="login.jpg" alt=" User Authentication" width="200" style="border-radius: 10px; margin-right: 10px;">
   <img src="admin.jpg" alt="Admin Dashboard" width="200" style="border-radius: 10px; margin-right: 10px;">
-  <img src="shop1.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
-  <img src="shop2.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
+</p>
+<p align="center">
+  <img src="Shop1.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
   <img src="sShop3.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
+  <img src="shop4.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
+  <img src="shop5.jpg" alt="User Interfaces" width="200" style="border-radius: 10px; margin-right: 10px;">
 </p>
 
 🛠️ Installation and Setup
